@@ -8,7 +8,7 @@
 KERNEL_DIR="$(pwd)"
 
 # Zip Name
-ZIPNAME="Nexus-EAS"
+ZIPNAME="Nexus-HMP"
 
 # Specify compiler ( eva , azure , proton , arter , aosp & atom-x )
 COMPILER=proton
@@ -46,7 +46,7 @@ DATE=$(TZ=Asia/Kolkata date +"%Y%m%d-%T")
 START=$(date +"%s")
 TANGGAL=$(date +"%F%S")
 
-FINAL_ZIP=${ZIPNAME}-v9.6-${VERSION}-${DEVICE}-${TANGGAL}.zip
+FINAL_ZIP=${ZIPNAME}-v14-${VERSION}-${DEVICE}-${TANGGAL}.zip
 ##----------------------------------------------------------##
 
 # Cloning Dependencies
